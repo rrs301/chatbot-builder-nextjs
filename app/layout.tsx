@@ -16,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
+      {/* <div>
+          <iframe src="https://chatbot-builder-nextjs.vercel.app/"  className="w-[300px] h-[600px] "></iframe>
+      </div> */}
+      </body>
     </html>
   )
 }
